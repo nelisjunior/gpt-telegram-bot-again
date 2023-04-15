@@ -5,11 +5,11 @@ import os
 import threading
 
 # OpenAI secret Key
-API_KEY = 'xxxxxxxxxxxsecretAPIxxxxxxxxxx'
+API_KEY = os.getenv('API_KEY') 
 # Models: text-davinci-003,text-curie-001,text-babbage-001,text-ada-001
 MODEL = 'gpt-3.5-turbo'
 # Telegram secret access bot token
-BOT_TOKEN = 'xxxxxxbotapikeyxxxxx'
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 # Defining the bot's personality using adjectives
 BOT_PERSONALITY = 'Answer in a funny tone, '
 # Specify your Chat Bot handle
