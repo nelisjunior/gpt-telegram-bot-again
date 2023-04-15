@@ -13,7 +13,7 @@ BOT_TOKEN = os.getenv('BOT_TOKEN')
 # Defining the bot's personality using adjectives
 BOT_PERSONALITY = 'Answer in a funny tone, '
 # Specify your Chat Bot handle
-CHATBOT_HANDLE = '@ask_chatgptbot'
+CHATBOT_HANDLE = '@Text1x_bot'
 
 # 2a. Function that gets the response from OpenAI's chatbot
 def openAI(prompt):
